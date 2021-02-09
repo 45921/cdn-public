@@ -12,7 +12,7 @@ body {
 	--color-link: #000;
 	--color-link-hover: #000;
 	--color-info: #000;
-	font-family: 'Buenard', serif;
+	font-family: 'Noto Serif SC', "Microsoft Yahei UI", 'Buenard', serif;
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);
