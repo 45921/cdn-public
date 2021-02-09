@@ -12,7 +12,7 @@ body {
 	--color-link: #000;
 	--color-link-hover: #000;
 	--color-info: #000;
-	font-family: 'Noto Serif SC', "Microsoft Yahei UI", 'Buenard', serif;
+	font-family: 'Buenard', serif;
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);
@@ -362,7 +362,7 @@ main {
 		align-items: center;
 		padding: 3rem 3rem 15rem 3rem;
 		grid-row-gap: 2rem;
-		grid-template-columns: repeat(3,calc(100% / 3));
+		grid-template-columns: repeat(2, 50%);
 	}
 	.grid__item {
 		margin: 0;
@@ -441,7 +441,7 @@ main {
 
 @media screen and (min-width: 80em) {
 	.grid {
-		grid-template-columns: repeat(4,25%);
+		grid-template-columns: repeat(3, calc(100% / 3));
 	}
 	.grid__item:nth-child(4n-2) {
 		margin-top: -8rem;
