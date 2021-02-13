@@ -274,6 +274,11 @@ main {
 	display: none;
 }
 
+.box__content--top {
+	bottom: 105%;
+	max-width: 270px;
+}
+
 .box__content--main {
     position: relative;
     font-size: 1.4rem;
@@ -461,7 +466,7 @@ main {
 	}
 	.grid__item:nth-child(4n-2) {
 		margin-top: -6rem;
-		margin-bottom: 6rem;
+		margin-bottom: 2rem;
 	}
 	.grid__item:nth-child(4n) {
 		margin-top: -3rem;
